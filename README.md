@@ -1,1 +1,1 @@
-TFIDF in Spark for https://www.kaggle.com/c/word2vec-nlp-tutorial 
+TF-IDF with Spark for https://www.kaggle.com/c/word2vec-nlp-tutorial 
