@@ -27,7 +27,7 @@ object TFIDFSpark {
       .set("spark.executor.memory", "2g")
     val sc = new SparkContext(conf)
 
-    val input: RDD[String] = sc.textFile(path).sample(false, 0.2)
+    val input: RDD[String] = sc.textFile(path)//.sample(false, 0.2)
     val data = labeledTexts(input, CSVSeparator)
 
     val splits = data.randomSplit(Array(0.6, 0.4), seed = 11L)

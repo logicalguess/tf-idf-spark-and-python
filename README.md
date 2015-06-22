@@ -1,6 +1,6 @@
-TF-IDF with Spark for https://www.kaggle.com/c/word2vec-nlp-tutorial 
+TF-IDF with Stanford NLP and Spark for https://www.kaggle.com/c/word2vec-nlp-tutorial 
 
-Results are not as good as using sklearn (Python).
+Results (on test data) are not as good as using sklearn with 3-grams (Python).
 
 ![ ](results.png)
 
