@@ -1,6 +1,6 @@
 TF-IDF with Stanford NLP and Spark for https://www.kaggle.com/c/word2vec-nlp-tutorial 
 
-Results (on test data) are not as good as using [sklearn with 4-grams (Python)](./src/main/python/).
+Python version [sklearn with 4-grams (Python)](./src/main/python/) gives better results than Spark.
 
 ![ ](results.png)
 
