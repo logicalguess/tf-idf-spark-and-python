@@ -1,6 +1,7 @@
 TF-IDF with Stanford NLP and Spark for https://www.kaggle.com/c/word2vec-nlp-tutorial 
 
-Python version [sklearn with 4-grams (Python)](./src/main/python/) gives better results than Spark.
+The project also includes the [Python version] (./src/main/python/) (using a TFIDF vectorizer with 4-grams), 
+which gives better performance than Spark.
 
 ![ ](results.png)
 
